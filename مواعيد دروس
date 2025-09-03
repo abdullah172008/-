@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>مواعيد الدروس3 ثانوي .com</title>
+    <style>
+        
+        body {
+            background-color: #6acbff;
+        }
+        
+        header{
+            color: black;
+            width: 108%
+            
+        }
+        
+        
+          #h {
+           
+           text-align: center;
+           
+           
+               background-color: #662bff; 
+              
+           }
+           table {
+           background-color: wheat ;
+               border-collapse: collapse;
+               width: 100%;
+               border-bottom-width: 100%;
+           }
+  #a {
+ color: #ff1554;
+      background-color: #ffdc55;
+  }
+  #b {
+      background-color: #a5ff55;
+      text-align: center;
+  }
+  
+  #c {
+     background-color:yellow ;
+  }
+  #p {
+      text-align: center;
+      width: 110%;
+      background-color: yellow;
+  }
+  ol {
+      
+  }
+  #a1 { position: 0px ,20px;
+      
+  }
+  footer {
+      background-color: ;
+      
+      
+  }
+  
+  
+  
+  /* جعل التنسيق واضح ومرتب */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* الشريط */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* يوزع اللوجو واللينكات */
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+/* اللوجو */
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* اللينكات */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* مسافة بين الروابط */
+  margin: 0;
+  padding: 0;
+}
+
+/* الرابط نفسه */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+/* تأثير عند المرور */
+.nav-links a:hover {
+  color: #ff9800;
+}
+        
+         </style>
+</head>
+<body>
+       <header>
+                     
+           <h1 id="h">
+             مواعيد الدروس 
+           </h1>
+           
+           <nav class="navbar">
+      <div class="logo">موقعي</div>
+      <ul class="nav-links">
+        <li><a href="http://localhost:8080/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20.html">المواعيد</a></li>
+        <li><a href="#about">من نحن</a></li>
+        <li><a href="#services">الخدمات</a></li>
+        <li><a href="#contact">اتصل بنا</a></li>
+      </ul>
+    </nav>
+           
+           
+           
+       </header>
+      <main>
+           
+           <table border="5">
+               <tr>
+                   <th id="a">الدروس</th>
+                   <th id="a">عربي </th>
+                   <th id="a">شرعي </th>
+                   <th id="a">حساب</th>
+                   <th id="a">E</th>
+                   <th id="a">كمياء</th>
+                   <th id="a">فيزياء</th>
+                   <th id="a">احياء</th>
+               </tr>
+               <tr>
+                   <td id="b">السبت </td><div></div>
+                   <td>×</td>
+                   <td>6.5Am&4pm</td>
+                   <td>11pm</td>
+                   <td>×</td>
+                   <td>×</td>
+                   <td>×</td>
+                   <td>×</td>
+               </tr>
+               <tr>
+                   <td id="b">الأحد</td>
+                   <td>6.5Am or 5.5pm</td>
+                   <td><div id="c">1.5pm</div></td>
+                   <td>×</td>
+                   <td>4pm</td>
+                   <td>×</td>
+                   <td>7pm</td>
+                   <td>×</td>
+                   
+               </tr>
+               <tr>
+                   <td id="b">الإثنين</td>
+                   <td>×</td>
+                   <td><div id="c">3pmA</div>&4pms&8pms</td>
+                   <td>7.5Am</td>
+                   <td>×</td>
+                   <td>10am</td>
+                   <td>×</td>
+                   <td>1pm</td>
+               </tr>
+               <tr>
+                   <td id="b"> الثلاثاء</td>
+                   <td>6.5am</td>
+                   <td>×</td>
+                   <td>×</td>
+                   <td>4pm</td>
+                   <td>×</td>
+                   <td>7pm</td>
+                   <td>×</td>
+               </tr>
+               <tr>
+                   <td id="b">الأربعاء</td>
+                   <td>×</td>
+                   <td>6.5am&9am</td>
+                   <td>11am</td>
+                   <td>×</td>
+                   <td>×</td>
+                   <td>×</td>
+                   <td>×</td>
+               </tr>
+               <tr>
+                   <td id="b"> الخميس</td>
+                   <td>6.5am</td>
+                   <td><div id="c">8AmA</div> </td>
+                   <td>×</td>
+                   <td>4pm</td>
+                   <td>10am</td>
+                   <td>7pm</td>
+                   <td>1pm</td>
+               </tr>
+               <tr>
+                   <td id="b">الجمعه</td>
+                   <td>×</td>
+                   <td><div id="c">11am</div> & 5pm</td>
+                   <td>7am</td>
+                   <td>×</td>
+                   <td>×</td>
+                   <td>×</td>
+                   <td>2pm</td>
+               </tr>
+             
+           </table>
+       <h4 id="b">:ملحوظات:  </h4>
+           
+       <ol style="text-align: right;">
+          <li > يوم الجمعه امتحان كمياء علي المنصه  <div style="background-color:#ffd240 ; text-underline-position: under ;" >(جمعه فيزياء و جمعه كمياء)</div></li>
+          
+          
+           
+       </ol>    
+                  </p>    
+           
+           
+           
+       </main>
+       
+       
+       
+       <footer>
+           
+           <h2>hgghhj</h2>
+           
+           
+           
+           
+       </footer>
+</body>
+</html>
